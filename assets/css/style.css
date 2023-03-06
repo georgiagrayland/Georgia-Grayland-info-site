@@ -43,6 +43,7 @@
     background-color: #e74c3c;
 }
 
+
 .row-table {
     display: table;
 }
@@ -53,7 +54,7 @@
     float: none;
 }
 
-.section-heading {
+.section-heading, .history-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
@@ -380,6 +381,11 @@ button[type="submit"] {
     margin-bottom: 20px;
     color: #fafafa;
     background-color: #e84610;
+}
+
+/*--------------------------------------------Map*/
+div#map {
+    min-height: 360px;
 }
 
 /* ----------------------------------------Media Queries */
